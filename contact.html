@@ -31,6 +31,44 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+  .manager:hover {
+    transform: scale(1.1);
+  }
+  .managers_section {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .manager {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  .manager img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+
+</style>
 
 </head>
 
@@ -142,25 +180,25 @@
   <div class="managers_section">
     <div class="row">
       <div class="col-md-4" style="text-align: center;">
-        <div class="manager" style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 20px; margin-bottom: 20px;">
+        <div class="manager" style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; transition: transform 0.3s ease;">
           <img src="images/muneeb.jpg" alt="Manager 1" style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover;">
-          <h4 >Raja Muneeb Ahmed (Manager)</h4>
+          <h4>Raja Muneeb Ahmed </br>(Manager)</h4>
           <p>Phone: +92-3102217396</p>
-          <p>Email: muneebahmed9042@gmail.com</p>
+          <p>Email:muneebahmed9042@gmail.com</p>
         </div>
       </div>
       <div class="col-md-4" style="text-align: center;">
-        <div class="manager" style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 20px; margin-bottom: 20px;">
+        <div class="manager" style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; transition: transform 0.3s ease;">
           <img src="images/hamza.jpg" alt="Manager 2" style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover;">
-          <h4>Raja Hamza (Manager)</h4>
+          <h4>Raja Hamza </br>(Manager)</h4>
           <p>Phone: +92-3357734297</p>
-          <p>Email: ameerhamza13127@gmail.com.com</p>
+          <p>Email:ameerhamza13127@gmail.com</p>
         </div>
       </div>
       <div class="col-md-4" style="text-align: center;">
-        <div class="manager" style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 20px; margin-bottom: 20px;">
+        <div class="manager" style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; transition: transform 0.3s ease;">
           <img src="images/rashid.png" alt="Manager 3" style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover;">
-          <h4>Muhammad Rashid (Project Manager) </h4>
+          <h4>Muhammad Rashid </br>(Project Manager)</h4>
           <p>Phone: +92-3302911375</p>
           <p>Email: ceo.mrs.softwares@gmail.com</p>
         </div>
@@ -168,6 +206,10 @@
     </div>
   </div>
 </div>
+
+
+
+
 
 
 
